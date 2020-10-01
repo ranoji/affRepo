@@ -6,6 +6,6 @@ module.exports = app => {
 
   // Retrieve all Tutorials
   router.get("/:type_id&:aff_id", repos.findURL);
-  router.get("/", repos.findAll);
+  // router.get("/", repos.findAll);
   app.use('/aff_c', router);
 };

@@ -1,7 +1,7 @@
-const db = require("../models");
+// const db = require("../models");
 const repo = require("../data/repo"); 
-const Repo = db.tblrepo;
-const Op = db.Sequelize.Op;
+// const Repo = db.tblrepo;
+// const Op = db.Sequelize.Op;
 
 
 exports.findURL = (req, res) => {
@@ -21,16 +21,16 @@ exports.findURL = (req, res) => {
   res.redirect(newArray ? newArray[0].url : '');
 };
 
-exports.findAll = (req, res) => {
+// exports.findAll = (req, res) => {
 
-  Repo.findAll()
-    .then(data => {
-      res.send(data[0].url);
-    })
-    .catch(err => {
-      res.status(500).send({
-        message:
-          err.message || "Some error occurred while retrieving tutorials."
-      });
-    });
-};
+//   Repo.findAll()
+//     .then(data => {
+//       res.send(data[0].url);
+//     })
+//     .catch(err => {
+//       res.status(500).send({
+//         message:
+//           err.message || "Some error occurred while retrieving tutorials."
+//       });
+//     });
+// };
