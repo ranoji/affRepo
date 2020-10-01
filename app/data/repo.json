@@ -1,0 +1,33 @@
+[ 
+    { 
+        "type_id": 1, 
+        "aff_id": 1, 
+        "url": "https://www.amazon.com/" 
+    }, 
+    { 
+        "type_id": 1, 
+        "aff_id": 2, 
+        "url": "https://www.flipkart.com/" 
+    }, 
+    { 
+        "type_id": 1, 
+        "aff_id": 3, 
+        "url": "https://www.ebay.com/" 
+    },
+    { 
+        "type_id": 2, 
+        "aff_id": 1, 
+        "url": "https://www.hotstar.com/" 
+    },
+    { 
+        "type_id": 2, 
+        "aff_id": 2, 
+        "url": "https://www.zee5.com/" 
+    },
+    { 
+        "type_id": 2, 
+        "aff_id": 3, 
+        "url": "https://www.netflix.com/" 
+    }
+] 
+    
